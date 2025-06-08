@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>简历</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="pdf-container">
+            <div class="loading">正在加载PDF...</div>
+            <object
+                data="posts/resume.pdf"
+                type="application/pdf"
+                class="pdf-viewer">
+                <embed 
+                    src="posts/resume.pdf" 
+                    type="application/pdf"
+                    class="pdf-viewer" />
+                <p>您的浏览器不支持PDF预览</p>
+            </object>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html> 
